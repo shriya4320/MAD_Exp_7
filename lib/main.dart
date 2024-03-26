@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Women Safety App'),
+        title: Text('men Safety App'),
       ),
       drawer: Drawer(
         child: ListView(
