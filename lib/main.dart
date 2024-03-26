@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Women Safety App',
+      title: 'Men Safety App',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.blue,
       ),
       initialRoute: '/home', // Set the initialRoute to a default route
       routes: {
@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.pink,
+                color: Colors.blue,
               ),
               child: Text(
                 'Navigation Panel',
